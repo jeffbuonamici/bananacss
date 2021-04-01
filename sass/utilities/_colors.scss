@@ -1,0 +1,50 @@
+$black:        hsl(0, 0%, 4%) !default;
+$black-bis:    hsl(0, 0%, 7%) !default;
+$black-ter:    hsl(0, 0%, 14%) !default;
+
+$grey-darker:  hsl(0, 0%, 21%) !default;
+$grey-dark:    hsl(0, 0%, 29%) !default;
+$grey:         hsl(0, 0%, 48%) !default;
+$grey-light:   hsl(0, 0%, 71%) !default;
+$grey-lighter: hsl(0, 0%, 86%) !default;
+
+$white-ter:    hsl(0, 0%, 96%) !default;
+$white-bis:    hsl(0, 0%, 98%) !default;
+$white:        hsl(0, 0%, 100%) !default;
+
+$red: #f44336 !default;
+$pink: #e91e63 !default;
+$purple: #9c27b0 !default;
+$deeppurple: #673ab7 !default;
+$indigo: #3f51b5 !default;
+$blue: #2196f3 !default;
+$lightblue: #03a9f4 !default;
+$cyan: #00bcd4 !default;
+$teal: #009688 !default;
+$aqua: #1de9b6 !default;
+$green: #4caf50 !default;
+$lightgreen: #8bc34a !default;
+$lime: #cddc39 !default;
+$yellow: #ffeb3b !default;
+$amber: #ffc107 !default;
+$orange: #ff9800 !default;
+$deeporange: #ff5722 !default;
+
+$colormap: ("red": ($red, $white), 
+"pink": ($pink, $white),
+"purple": ($purple, $white),
+"deeppurple": ($deeppurple, $white),
+"indigo": ($indigo, $white),
+"blue": ($blue, $white),
+"lightblue": ($lightblue, $white),
+"cyan": ($cyan, $white),
+"teal": ($teal, $white),
+"aqua": ($aqua, $white),
+"green": ($green, $white),
+"lightgreen": ($lightgreen, $white),
+"lime": ($lime, $black),
+"yellow": ($yellow, $black),
+"amber": ($amber, $white),
+"orange": ($orange, $white),
+"deeporange": ($deeporange, $white)
+);
