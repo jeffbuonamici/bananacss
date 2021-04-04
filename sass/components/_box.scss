@@ -1,0 +1,22 @@
+$box-background-color: white;
+$box-radius: 4px;
+$box-color: black;
+$box-padding: 1.25rem;
+
+.box {
+    display: block;
+    background-color: $box-background-color;
+    border-radius: $box-radius;
+    color: $box-color;
+    padding: $box-padding;
+    text-align: center;
+    @each $name, $pair in $colormap {
+        $color: nth($pair, 1);
+        $color-invert: nth($pair, 2);
+        &.#{$name} {
+            background-color: $color;
+            border-color: transparent;
+            color: $color-invert;
+        }
+    }
+}

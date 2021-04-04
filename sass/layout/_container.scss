@@ -1,0 +1,23 @@
+@import "../utilities/media";
+
+.container {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    @include tablet {
+        max-width: $tablet;
+    }
+    @include desktop {
+        max-width: $desktop;
+    }
+    @include widescreen {
+        max-width: $widescreen;
+    }
+    @include fullhd {
+        max-width: $fullhd;
+    }
+    &.fluid {
+        padding-right: $gap;
+        padding-left: $gap;
+    }
+}
