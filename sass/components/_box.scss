@@ -8,7 +8,7 @@ $box-padding: 1.25rem;
     background-color: $box-background-color;
     border-radius: $box-radius;
     color: $box-color;
-    padding: $box-padding;
+    padding: $box-padding 0;
     text-align: center;
     @each $name, $pair in $colormap {
         $color: nth($pair, 1);

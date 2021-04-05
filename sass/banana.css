@@ -46,7 +46,7 @@ html {
 }
 
 body, button, input, select, textarea {
-  font-family: Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Raleway,Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .col {
@@ -59,90 +59,307 @@ body, button, input, select, textarea {
   -ms-flex-negative: 1;
       flex-shrink: 1;
   padding: 0.75rem;
-}
-
-.col.size-1 {
-  -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
-  width: 8.333%;
-}
-
-.col.size-2 {
-  -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
-  width: 16.666%;
-}
-
-.col.size-3 {
-  -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
-  width: 25%;
-}
-
-.col.size-4 {
-  -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
-  width: 33.333%;
-}
-
-.col.size-5 {
-  -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
-  width: 41.666%;
-}
-
-.col.size-6 {
-  -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
-  width: 50%;
-}
-
-.col.size-7 {
-  -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
-  width: 58.333%;
-}
-
-.col.size-8 {
-  -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
-  width: 66.666%;
-}
-
-.col.size-9 {
-  -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
-  width: 75%;
-}
-
-.col.size-10 {
-  -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
-  width: 83.333%;
-}
-
-.col.size-11 {
-  -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
-  width: 91.666%;
-}
-
-.col.size-12 {
-  -webkit-box-flex: 0;
-      -ms-flex: none;
-          flex: none;
   width: 100%;
+}
+
+@media screen and (min-width: 769px) {
+  .col.size-1 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 8.333%;
+  }
+  .col.size-2 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 16.666%;
+  }
+  .col.size-3 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 25%;
+  }
+  .col.size-4 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 33.333%;
+  }
+  .col.size-5 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 41.666%;
+  }
+  .col.size-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 50%;
+  }
+  .col.size-7 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 58.333%;
+  }
+  .col.size-8 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 66.666%;
+  }
+  .col.size-9 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 75%;
+  }
+  .col.size-10 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 83.333%;
+  }
+  .col.size-11 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 91.666%;
+  }
+  .col.size-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .col.size-1 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 8.333%;
+  }
+  .col.size-2 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 16.666%;
+  }
+  .col.size-3 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 25%;
+  }
+  .col.size-4 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 33.333%;
+  }
+  .col.size-5 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 41.666%;
+  }
+  .col.size-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 50%;
+  }
+  .col.size-7 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 58.333%;
+  }
+  .col.size-8 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 66.666%;
+  }
+  .col.size-9 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 75%;
+  }
+  .col.size-10 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 83.333%;
+  }
+  .col.size-11 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 91.666%;
+  }
+  .col.size-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1212px) {
+  .col.size-1 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 8.333%;
+  }
+  .col.size-2 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 16.666%;
+  }
+  .col.size-3 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 25%;
+  }
+  .col.size-4 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 33.333%;
+  }
+  .col.size-5 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 41.666%;
+  }
+  .col.size-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 50%;
+  }
+  .col.size-7 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 58.333%;
+  }
+  .col.size-8 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 66.666%;
+  }
+  .col.size-9 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 75%;
+  }
+  .col.size-10 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 83.333%;
+  }
+  .col.size-11 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 91.666%;
+  }
+  .col.size-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1404px) {
+  .col.size-1 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 8.333%;
+  }
+  .col.size-2 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 16.666%;
+  }
+  .col.size-3 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 25%;
+  }
+  .col.size-4 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 33.333%;
+  }
+  .col.size-5 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 41.666%;
+  }
+  .col.size-6 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 50%;
+  }
+  .col.size-7 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 58.333%;
+  }
+  .col.size-8 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 66.666%;
+  }
+  .col.size-9 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 75%;
+  }
+  .col.size-10 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 83.333%;
+  }
+  .col.size-11 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 91.666%;
+  }
+  .col.size-12 {
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 100%;
+  }
 }
 
 .col.red {
@@ -265,10 +482,36 @@ body, button, input, select, textarea {
   color: #7a7a7a;
 }
 
-.cols {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media screen and (min-width: 769px) {
+  .cols {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .cols {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1212px) {
+  .cols {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1404px) {
+  .cols {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .box {
@@ -276,7 +519,7 @@ body, button, input, select, textarea {
   background-color: white;
   border-radius: 4px;
   color: black;
-  padding: 1.25rem;
+  padding: 1.25rem 0;
   text-align: center;
 }
 
@@ -398,6 +641,353 @@ body, button, input, select, textarea {
   background-color: #f5f5f5;
   border-color: transparent;
   color: #7a7a7a;
+}
+
+.button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 1rem;
+  height: 2.25em;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  line-height: 1.5;
+  padding-bottom: calc(.375em - 1px);
+  padding-left: calc(.625em - 1px);
+  padding-right: calc(.625em - 1px);
+  padding-top: calc(.375em - 1px);
+  position: relative;
+  vertical-align: top;
+}
+
+.button:focus, .is-focused.button, .button:active, .is-active.button {
+  outline: none;
+}
+
+.button {
+  background-color: white;
+  color: #363636;
+  border-color: #dbdbdb;
+  border-width: 1px;
+  cursor: pointer;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: calc(.375em - 1px);
+  padding-left: .75em;
+  padding-right: .75em;
+  padding-top: calc(.375em - 1px);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.button.red {
+  background-color: #f44336;
+  border-color: transparent;
+  color: white;
+}
+
+.button.red.hover, .button.red:hover {
+  background-color: #f3382a;
+}
+
+.button.red.active, .button.red:active {
+  background-color: #f32c1e;
+}
+
+.button.pink {
+  background-color: #e91e63;
+  border-color: transparent;
+  color: white;
+}
+
+.button.pink.hover, .button.pink:hover {
+  background-color: #e4165c;
+}
+
+.button.pink.active, .button.pink:active {
+  background-color: #d81558;
+}
+
+.button.purple {
+  background-color: #9c27b0;
+  border-color: transparent;
+  color: white;
+}
+
+.button.purple.hover, .button.purple:hover {
+  background-color: #9325a6;
+}
+
+.button.purple.active, .button.purple:active {
+  background-color: #89229b;
+}
+
+.button.deeppurple {
+  background-color: #673ab7;
+  border-color: transparent;
+  color: white;
+}
+
+.button.deeppurple.hover, .button.deeppurple:hover {
+  background-color: #6237ad;
+}
+
+.button.deeppurple.active, .button.deeppurple:active {
+  background-color: #5c34a4;
+}
+
+.button.indigo {
+  background-color: #3f51b5;
+  border-color: transparent;
+  color: white;
+}
+
+.button.indigo.hover, .button.indigo:hover {
+  background-color: #3c4dac;
+}
+
+.button.indigo.active, .button.indigo:active {
+  background-color: #3849a2;
+}
+
+.button.blue {
+  background-color: #2196f3;
+  border-color: transparent;
+  color: white;
+}
+
+.button.blue.hover, .button.blue:hover {
+  background-color: #1590f2;
+}
+
+.button.blue.active, .button.blue:active {
+  background-color: #0d8aee;
+}
+
+.button.lightblue {
+  background-color: #03a9f4;
+  border-color: transparent;
+  color: white;
+}
+
+.button.lightblue.hover, .button.lightblue:hover {
+  background-color: #03a0e7;
+}
+
+.button.lightblue.active, .button.lightblue:active {
+  background-color: #0398db;
+}
+
+.button.cyan {
+  background-color: #00bcd4;
+  border-color: transparent;
+  color: white;
+}
+
+.button.cyan.hover, .button.cyan:hover {
+  background-color: #00b1c7;
+}
+
+.button.cyan.active, .button.cyan:active {
+  background-color: #00a5bb;
+}
+
+.button.teal {
+  background-color: #009688;
+  border-color: transparent;
+  color: white;
+}
+
+.button.teal.hover, .button.teal:hover {
+  background-color: #00897c;
+}
+
+.button.teal.active, .button.teal:active {
+  background-color: #007d71;
+}
+
+.button.aqua {
+  background-color: #1de9b6;
+  border-color: transparent;
+  color: white;
+}
+
+.button.aqua.hover, .button.aqua:hover {
+  background-color: #16e3b0;
+}
+
+.button.aqua.active, .button.aqua:active {
+  background-color: #15d8a7;
+}
+
+.button.green {
+  background-color: #4caf50;
+  border-color: transparent;
+  color: white;
+}
+
+.button.green.hover, .button.green:hover {
+  background-color: #48a64c;
+}
+
+.button.green.active, .button.green:active {
+  background-color: #449d48;
+}
+
+.button.lightgreen {
+  background-color: #8bc34a;
+  border-color: transparent;
+  color: white;
+}
+
+.button.lightgreen.hover, .button.lightgreen:hover {
+  background-color: #85c040;
+}
+
+.button.lightgreen.active, .button.lightgreen:active {
+  background-color: #7eb73d;
+}
+
+.button.lime {
+  background-color: #cddc39;
+  border-color: transparent;
+  color: #0a0a0a;
+}
+
+.button.lime.hover, .button.lime:hover {
+  background-color: #cada2e;
+}
+
+.button.lime.active, .button.lime:active {
+  background-color: #c6d626;
+}
+
+.button.yellow {
+  background-color: #ffeb3b;
+  border-color: transparent;
+  color: #0a0a0a;
+}
+
+.button.yellow.hover, .button.yellow:hover {
+  background-color: #ffea2e;
+}
+
+.button.yellow.active, .button.yellow:active {
+  background-color: #ffe822;
+}
+
+.button.light-banana {
+  background-color: #ffe96d;
+  border-color: transparent;
+  color: #121212;
+}
+
+.button.light-banana.hover, .button.light-banana:hover {
+  background-color: #ffe760;
+}
+
+.button.light-banana.active, .button.light-banana:active {
+  background-color: #ffe554;
+}
+
+.button.banana {
+  background-color: #fdd900;
+  border-color: transparent;
+  color: #121212;
+}
+
+.button.banana.hover, .button.banana:hover {
+  background-color: #f0ce00;
+}
+
+.button.banana.active, .button.banana:active {
+  background-color: #e4c300;
+}
+
+.button.amber {
+  background-color: #ffc107;
+  border-color: transparent;
+  color: white;
+}
+
+.button.amber.hover, .button.amber:hover {
+  background-color: #f9bb00;
+}
+
+.button.amber.active, .button.amber:active {
+  background-color: #edb100;
+}
+
+.button.orange {
+  background-color: #ff9800;
+  border-color: transparent;
+  color: white;
+}
+
+.button.orange.hover, .button.orange:hover {
+  background-color: #f29000;
+}
+
+.button.orange.active, .button.orange:active {
+  background-color: #e68900;
+}
+
+.button.deeporange {
+  background-color: #ff5722;
+  border-color: transparent;
+  color: white;
+}
+
+.button.deeporange.hover, .button.deeporange:hover {
+  background-color: #ff4d15;
+}
+
+.button.deeporange.active, .button.deeporange:active {
+  background-color: #ff4409;
+}
+
+.button.light-grey {
+  background-color: #f5f5f5;
+  border-color: transparent;
+  color: #7a7a7a;
+}
+
+.button.light-grey.hover, .button.light-grey:hover {
+  background-color: #efefef;
+}
+
+.button.light-grey.active, .button.light-grey:active {
+  background-color: #e8e8e8;
+}
+
+.buttons {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.buttons .button {
+  margin-bottom: 0.5rem;
+}
+
+.buttons .button:not(:last-child) {
+  margin-right: 0.5rem;
 }
 
 .container {

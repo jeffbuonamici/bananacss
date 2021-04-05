@@ -1,0 +1,77 @@
+$button-background-color: $white !default;
+$button-color: $grey-darker !default;
+
+$button-border-color: $grey-lighter !default;
+
+%control {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.25em;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-bottom: calc(.375em - 1px);
+    padding-left: calc(.625em - 1px);
+    padding-right: calc(.625em - 1px);
+    padding-top: calc(.375em - 1px);
+    position: relative;
+    vertical-align: top;
+  // States
+  &:focus,
+  &.is-focused,
+  &:active,
+  &.is-active {
+    outline: none
+  }
+}
+
+.button {
+    @extend %control;
+    background-color: $button-background-color;
+    color: $button-color;
+    border-color: $button-border-color;
+    border-width: 1px;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(.375em - 1px);
+    padding-left: .75em;
+    padding-right: .75em;
+    padding-top: calc(.375em - 1px);
+    text-align: center;
+    white-space: nowrap;
+
+    @each $name, $pair in $colormap {
+        $color: nth($pair, 1);
+        $color-invert: nth($pair, 2);
+        &.#{$name} {
+            background-color: $color;
+            border-color: transparent;
+            color: $color-invert;
+            &.hover,
+            &:hover {
+                background-color: darken($color, 2.5%);
+            }
+            &.active,
+            &:active {
+                background-color: darken($color, 5%);
+            }
+        }
+    }
+}
+
+.buttons {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    .button {
+        margin-bottom: 0.5rem;
+        &:not(:last-child){
+            margin-right: 0.5rem;
+        }
+    }
+}

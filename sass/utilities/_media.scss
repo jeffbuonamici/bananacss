@@ -1,5 +1,6 @@
 $gap: 30px;
 // 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
+$mobile: 550px !default;
 $tablet: 769px !default;
 // 960px container + 4rem
 $desktop: 960px + (2 * $gap) !default;
@@ -7,6 +8,12 @@ $desktop: 960px + (2 * $gap) !default;
 $widescreen: 1152px + (2 * $gap) !default;
 // 1344px container + 4rem
 $fullhd: 1344px + (2 * $gap) !default;
+
+@mixin mobile {
+    @media screen and (min-width:$mobile) {
+        @content;
+    }
+}
 
 @mixin tablet {
     @media screen and (min-width:$tablet) {

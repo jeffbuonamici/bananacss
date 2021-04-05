@@ -6,53 +6,206 @@ $col-padding: .75rem;
     flex-grow: 1;
     flex-shrink: 1;
     padding: $col-padding;
-    &.size-1 {
-        flex: none;
-        width: 8.333%
+    width: 100%;
+    @include tablet {
+        &.size-1 {
+            flex: none;
+            width: 8.333%
+        }
+        &.size-2 {
+            flex: none;
+            width: 16.666%
+        }
+        &.size-3 {
+            flex: none;
+            width: 25%
+        }
+        &.size-4 {
+            flex: none;
+            width: 33.333%
+        }
+        &.size-5 {
+            flex: none;
+            width: 41.666%
+        }
+        &.size-6 {
+            flex: none;
+            width: 50%
+        }
+        &.size-7 {
+            flex: none;
+            width: 58.333%
+        }
+        &.size-8 {
+            flex: none;
+            width: 66.666%
+        }
+        &.size-9 {
+            flex: none;
+            width: 75%
+        }
+        &.size-10 {
+            flex: none;
+            width: 83.333%
+        }
+        &.size-11 {
+            flex: none;
+            width: 91.666%
+        }
+        &.size-12 {
+            flex: none;
+            width: 100%
+        }
     }
-    &.size-2 {
-        flex: none;
-        width: 16.666%
+    @include desktop {
+        &.size-1 {
+            flex: none;
+            width: 8.333%
+        }
+        &.size-2 {
+            flex: none;
+            width: 16.666%
+        }
+        &.size-3 {
+            flex: none;
+            width: 25%
+        }
+        &.size-4 {
+            flex: none;
+            width: 33.333%
+        }
+        &.size-5 {
+            flex: none;
+            width: 41.666%
+        }
+        &.size-6 {
+            flex: none;
+            width: 50%
+        }
+        &.size-7 {
+            flex: none;
+            width: 58.333%
+        }
+        &.size-8 {
+            flex: none;
+            width: 66.666%
+        }
+        &.size-9 {
+            flex: none;
+            width: 75%
+        }
+        &.size-10 {
+            flex: none;
+            width: 83.333%
+        }
+        &.size-11 {
+            flex: none;
+            width: 91.666%
+        }
+        &.size-12 {
+            flex: none;
+            width: 100%
+        }
     }
-    &.size-3 {
-        flex: none;
-        width: 25%
+    @include widescreen {
+        &.size-1 {
+            flex: none;
+            width: 8.333%
+        }
+        &.size-2 {
+            flex: none;
+            width: 16.666%
+        }
+        &.size-3 {
+            flex: none;
+            width: 25%
+        }
+        &.size-4 {
+            flex: none;
+            width: 33.333%
+        }
+        &.size-5 {
+            flex: none;
+            width: 41.666%
+        }
+        &.size-6 {
+            flex: none;
+            width: 50%
+        }
+        &.size-7 {
+            flex: none;
+            width: 58.333%
+        }
+        &.size-8 {
+            flex: none;
+            width: 66.666%
+        }
+        &.size-9 {
+            flex: none;
+            width: 75%
+        }
+        &.size-10 {
+            flex: none;
+            width: 83.333%
+        }
+        &.size-11 {
+            flex: none;
+            width: 91.666%
+        }
+        &.size-12 {
+            flex: none;
+            width: 100%
+        }
     }
-    &.size-4 {
-        flex: none;
-        width: 33.333%
-    }
-    &.size-5 {
-        flex: none;
-        width: 41.666%
-    }
-    &.size-6 {
-        flex: none;
-        width: 50%
-    }
-    &.size-7 {
-        flex: none;
-        width: 58.333%
-    }
-    &.size-8 {
-        flex: none;
-        width: 66.666%
-    }
-    &.size-9 {
-        flex: none;
-        width: 75%
-    }
-    &.size-10 {
-        flex: none;
-        width: 83.333%
-    }
-    &.size-11 {
-        flex: none;
-        width: 91.666%
-    }
-    &.size-12 {
-        flex: none;
-        width: 100%
+    @include fullhd {
+        &.size-1 {
+            flex: none;
+            width: 8.333%
+        }
+        &.size-2 {
+            flex: none;
+            width: 16.666%
+        }
+        &.size-3 {
+            flex: none;
+            width: 25%
+        }
+        &.size-4 {
+            flex: none;
+            width: 33.333%
+        }
+        &.size-5 {
+            flex: none;
+            width: 41.666%
+        }
+        &.size-6 {
+            flex: none;
+            width: 50%
+        }
+        &.size-7 {
+            flex: none;
+            width: 58.333%
+        }
+        &.size-8 {
+            flex: none;
+            width: 66.666%
+        }
+        &.size-9 {
+            flex: none;
+            width: 75%
+        }
+        &.size-10 {
+            flex: none;
+            width: 83.333%
+        }
+        &.size-11 {
+            flex: none;
+            width: 91.666%
+        }
+        &.size-12 {
+            flex: none;
+            width: 100%
+        }
     }
     @each $name, $pair in $colormap {
         $color: nth($pair, 1);
@@ -66,5 +219,16 @@ $col-padding: .75rem;
 }
 
 .cols {
-    display: flex;
+    @include tablet {
+        display: flex;
+    }
+    @include desktop {
+        display: flex;
+    }
+    @include widescreen {
+        display: flex;
+    }
+    @include fullhd {
+        display: flex;
+    }
 }
