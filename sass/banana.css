@@ -1,5 +1,6 @@
 html,
 body,
+table,
 p,
 ol,
 ul,
@@ -24,6 +25,7 @@ h6 {
   margin: 0;
   padding: 0;
   font-weight: 400;
+  font-size: 62.5%;
 }
 
 h1,
@@ -48,6 +50,46 @@ html {
 
 body, button, input, select, textarea {
   font-family: "Raleway",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+body {
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 769px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  h2 {
+    font-size: 4.2rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  h3 {
+    font-size: 3.6rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  h4 {
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  h5 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  h6 {
+    font-size: 1.5rem;
+  }
 }
 
 .full-width {
@@ -998,6 +1040,7 @@ body, button, input, select, textarea {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  font-size: 1.5rem;
 }
 
 th,
